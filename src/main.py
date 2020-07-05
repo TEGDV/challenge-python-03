@@ -6,7 +6,7 @@ def run():
     # code
     message = f.read()
     real_message = re.findall('[a-z]', message)
-    print(real_message)
+    print(''.join(real_message))
 
 
 if __name__ == '__main__':
